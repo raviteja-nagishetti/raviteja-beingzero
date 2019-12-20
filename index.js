@@ -9,7 +9,7 @@ app.get('/', (req, res) => res.sendFile(__dirname+'/frontend/html/home.html'))
 app.get('/login', (req, res) => res.send('Login'))
 app.get('/register', (req, res) => res.send('Register'))
 
-var student = {"name" : "Raviteja",
+var student = {"name" : "Raviteja Nagishetti",
                "college" : "VNRVJIET",
                "regno": "112323232"}
 
